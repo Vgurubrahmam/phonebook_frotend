@@ -250,7 +250,7 @@ const App = () => {
                             ></input>
                             <input
                               required
-                              type="text"
+                              type="Date"
                               className="enter-input"
                               placeholder="Name.."
                               name="Dateofbirth"
@@ -359,7 +359,7 @@ const App = () => {
                             ></input>
                             <input
                               required
-                              type="string"
+                              type="date"
                               className="enter-input"
                               placeholder="D_o_B.."
                               name="Dateofbirth"
