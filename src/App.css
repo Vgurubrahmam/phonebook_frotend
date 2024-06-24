@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+  user-select: none;
+}
+
+.login-page {
+    background-color: #fff;
+    height:80%;
+    text-align: center;
+    border-radius: 16px;
+    width: 52rem;
+}
+
+.bg-container {
+  width: 100vw;
+  height:auto;
+
+}
+
+.phone-book-heading {
+    font-family: "Roboto";
+    font-size: 38px;
+    color: #000;
+    font-weight:bold;
+    
+}
+.card-form{
+  background-color:#fff;
+    margin: 0px;
+    height:70%;
+    width:100%;
+    text-align: center;
+    overflow-y: scroll;
+    color:#000;
+    align-items: center;
+}    
+   
+    .scrollable-table-container {
+      max-height: 300px; /* Adjust this value as needed */
+      overflow-y: auto; /* Enable vertical scrolling */
+      border-radius: 16px;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+  }
+
+    
+    .scrollable-table th {
+      position: sticky;
+      top: 0;
+      background-color: #0dddec; /* Optional: Change the background color of the header */
+      /* Ensure the header stays above other content */
+    }
+    
+
+.custom-button{
+  height: 45px;
+  width: 110px;
+  border-radius: 8px;
+  border-width: 0cap;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-name{
+  width: 320px;
+  height: 40px;
+  border-radius: 0px;
+ text-indent:8px;
+ margin-bottom: 20px;
+ outline: none;
+ border-width: 0 0 2px 0;
+ border-color: #000;
+ color: #000 !important;;
+ background-color:transparent;
+
+}
+td{
+  width: 15%;
+}
+th{
+  width: 400px;
+  
+}
+.enter-input{
+  border-width: 2px ;
+  border-radius: 8px;
+  border-color: #0dddec;
+  height: 45px;
+  margin: 20px;
+  background-color: #fff;
+  width: 90%;
+  outline: none;
+  text-indent: 8px;
+}
+.background-model{
+  background-color:transparent;
+  border-radius: 8px;
+}
+.background-body{
+  background-color:white;
+  border-radius: 16px;
+  height: 100vh;
+}
+
+.size{
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+}
